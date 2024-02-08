@@ -27,10 +27,6 @@ This project is a TypeScript command-line application that simulates a virtual z
 
 1. Clone this repository to your local machine:
 
-```
-git clone https://github.com/your-username/zoo-exercise.git
-```
-
 2. Navigate to the project directory:
 
 ```
@@ -109,8 +105,6 @@ Given the URL format string and URL instance, the hash we want would look like:
 
 ### Usage
 
-This project is a TypeScript command-line application that simulates a virtual zoo. Different types of animals in the zoo can "speak" by entering a message that is combined with a specific sound for each type of animal.
-
 #### Prerequisites
 
 - Node.js installed on your system: [Download Node.js](https://nodejs.org/)
@@ -119,10 +113,6 @@ This project is a TypeScript command-line application that simulates a virtual z
 #### Installation
 
 1. Clone this repository to your local machine:
-
-```
-git clone https://github.com/your-username/zoo-exercise.git
-```
 
 2. Navigate to the project directory:
 
