@@ -87,3 +87,57 @@ function logError(error)
 ```
 
 The solution is in /alarm/solution.js
+
+## 3) URL Parser Exercise
+
+We need logic to extract variable parts of a URL into a hash. The hash keys will be the "names" of the variable parts of the URL, and the values will be the corresponding values. We'll be given:
+
+1. A URL format string: describes the URL's format, with variable parts starting with a colon. Example: `/:version/api/:collection/:id`.
+2. A URL instance: matches the format and may contain URL parameters. Example: `/6/api/listings/3?sort=desc&limit=10`.
+
+Given the URL format string and URL instance, the hash we want would look like:
+
+```javascript
+{
+  version: 6,
+  collection: 'listings',
+  id: 3,
+  sort: 'desc',
+  limit: 10
+}
+
+
+### Usage
+
+This project is a TypeScript command-line application that simulates a virtual zoo. Different types of animals in the zoo can "speak" by entering a message that is combined with a specific sound for each type of animal.
+
+#### Prerequisites
+
+- Node.js installed on your system: [Download Node.js](https://nodejs.org/)
+- npm (Node Package Manager), which is installed alongside Node.js.
+
+#### Installation
+
+1. Clone this repository to your local machine:
+
+```
+git clone https://github.com/your-username/zoo-exercise.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd url-parser
+```
+
+#### Usage
+
+Once you have cloned the repository and installed the dependencies, you can use the application by following these steps:
+
+1. Open a terminal in the project directory.
+
+2. Run the following command to start the application:
+
+```
+npm start
+```
