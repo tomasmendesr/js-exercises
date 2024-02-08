@@ -27,7 +27,7 @@ const rl = readline.createInterface({
 });
 
 function startListening(): void {
-  rl.question('Enter animal type (lion or tiger): ', (animalType: string) => {
+  rl.question('Enter animal type (lion, tiger, dog or duck): ', (animalType: string) => {
     if (!animalClasses[animalType.toLowerCase()]) {
       console.log('Invalid animal type');
       rl.close();
