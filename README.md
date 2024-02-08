@@ -1,4 +1,4 @@
-## Zoo Exercise
+## 1) Zoo Exercise
 
 We are building a zoo inside a computer. Each animal species in our zoo has lots of different, particular, behaviors, but all animals talk to each other in a similar way. Specifically, they all implement a speak method, the output of which is the arbitrary input string interspersed with an "animal sound" that is particular to that type of animal. For example, the lion's speak function behaves like so:
 
@@ -70,3 +70,20 @@ Enter animal type (lion or tiger): lion
 Enter message: I'm a lion
 I'm roar a roar lion roar
 ```
+
+## 2) Error Alarm Exercise
+
+Suppose we have a web application that runs on a single server. Errors that occur from time to time during normal operation of the application are logged to a text file that is stored in the file system on the server.
+
+We are not concerned about these errors when their frequency is low. However, when lots of errors occur in a short period of time, there may be a problem with the application and we want to be notified immediately. Specifically, when more than ten errors occur in one minute, we want to receive an email notification.
+
+In general terms or pseudo code, how would you implement such an alarm? Please assume:
+
+1. The general paradigm of logging errors to a text file will be kept in place.
+2. There exists a function:
+
+```typescript
+function logError(error)
+```
+
+The solution is in /alarm/solution.js
