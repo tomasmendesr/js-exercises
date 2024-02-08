@@ -101,6 +101,7 @@ Given the URL format string and URL instance, the hash we want would look like:
   sort: 'desc',
   limit: 10
 }
+```
 
 
 ### Usage
