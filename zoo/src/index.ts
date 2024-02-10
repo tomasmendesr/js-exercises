@@ -2,10 +2,14 @@ import * as readline from 'readline';
 import Lion from './animals/Lion';
 import Tiger from './animals/Tiger';
 import Animal from './animals/Animal';
+import Dog from './animals/Dog';
+import Duck from './animals/Duck';
 
 const animalClasses: { [key: string]: new () => Animal } = {
   lion: Lion,
-  tiger: Tiger
+  tiger: Tiger,
+  duck: Duck,
+  dog: Dog,
 };
 
 function speakWithAnimal(animalType: string, message: string): void {
